@@ -1,0 +1,104 @@
+[
+  {
+    "project": "wechat-assistant-handoff",
+    "path": ".git",
+    "action": "excluded_directory",
+    "reason": "可重建依赖、运行环境、缓存或本机工具配置"
+  },
+  {
+    "project": "wechat-assistant-handoff",
+    "path": ".workbuddy-ai",
+    "action": "excluded_directory",
+    "reason": "可重建依赖、运行环境、缓存或本机工具配置"
+  },
+  {
+    "project": "wechat-assistant-handoff",
+    "path": ".DS_Store",
+    "action": "excluded_file",
+    "reason": "缓存或临时文件"
+  },
+  {
+    "project": "wechat-assistant-handoff",
+    "path": "公众号助手_完整源码_20261019.zip",
+    "action": "sanitized_archive",
+    "reason": "清理凭据及本机环境，压缩包内含清理清单"
+  },
+  {
+    "project": "wechat-assistant-handoff",
+    "path": "公众号撰写助手/选题skill.zip",
+    "action": "sanitized_archive",
+    "reason": "清理凭据及本机环境，压缩包内含清理清单"
+  },
+  {
+    "project": "wechat-assistant-handoff",
+    "path": "文案助手/.DS_Store",
+    "action": "excluded_file",
+    "reason": "缓存或临时文件"
+  },
+  {
+    "project": "wechat-assistant-handoff",
+    "path": "文案助手/wechat-writer-backups/文案工作台备份-20261013-113024-750306.zip",
+    "action": "sanitized_archive",
+    "reason": "清理凭据及本机环境，压缩包内含清理清单"
+  },
+  {
+    "project": "wechat-assistant-handoff",
+    "path": "文案助手/wechat-writer-backups/文案工作台备份-20261013-112737-102740.zip",
+    "action": "sanitized_archive",
+    "reason": "清理凭据及本机环境，压缩包内含清理清单"
+  },
+  {
+    "project": "wechat-assistant-handoff",
+    "path": "文案助手/wechat-writer/__pycache__",
+    "action": "excluded_directory",
+    "reason": "可重建依赖、运行环境、缓存或本机工具配置"
+  },
+  {
+    "project": "wechat-assistant-handoff",
+    "path": "文案助手/wechat-writer/.venv",
+    "action": "excluded_directory",
+    "reason": "可重建依赖、运行环境、缓存或本机工具配置"
+  },
+  {
+    "project": "wechat-assistant-handoff",
+    "path": "文案助手/wechat-writer/data/workspace.sqlite3-wal",
+    "action": "excluded_file",
+    "reason": "缓存或临时文件"
+  },
+  {
+    "project": "wechat-assistant-handoff",
+    "path": "文案助手/wechat-writer/data/workspace.sqlite3-shm",
+    "action": "excluded_file",
+    "reason": "缓存或临时文件"
+  },
+  {
+    "project": "wechat-assistant-handoff",
+    "path": "文案助手/wechat-writer/data/settings.json",
+    "action": "excluded_file",
+    "reason": "运行配置单独提供无密钥模板"
+  },
+  {
+    "project": "wechat-assistant-handoff",
+    "path": "文案助手/wechat-writer/data/workspace.sqlite3",
+    "action": "excluded_file",
+    "reason": "通过SQLite backup API另存一致性数据快照"
+  },
+  {
+    "project": "wechat-assistant-handoff",
+    "path": "文案助手/wechat-writer/data/coze_secrets.json",
+    "action": "excluded_file",
+    "reason": "运行配置单独提供无密钥模板"
+  },
+  {
+    "project": "wechat-assistant-handoff",
+    "path": "文案助手/wechat-writer/data/server.pid",
+    "action": "excluded_file",
+    "reason": "缓存或临时文件"
+  },
+  {
+    "project": "wechat-assistant-handoff",
+    "path": "文案助手/wechat-writer/data/server.log",
+    "action": "excluded_file",
+    "reason": "缓存或临时文件"
+  }
+]

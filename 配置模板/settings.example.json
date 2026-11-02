@@ -1,0 +1,10 @@
+{
+  "provider": "codex",
+  "base_url": "http://127.0.0.1:11434",
+  "model": "gpt-6-astra",
+  "search_provider": "tavily",
+  "api_key": "",
+  "tavily_api_key": "",
+  "notes_path": "",
+  "profile": "为汽车与车灯上下游公众号创作文案，面向整灯厂和上游供应商从业者。"
+}

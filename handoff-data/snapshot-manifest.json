@@ -1,0 +1,27 @@
+{
+  "created_at": "2026-11-02T14:02:06.583430+08:00",
+  "source": "Public handoff derived from a consistent SQLite online backup of the saved local workspace",
+  "api_secrets_included": false,
+  "database": "data/workspace.sqlite3",
+  "database_sha256": "ebbe83e563f02c2e89ddab83639f4d3e279235ecd2459befa829df9d91a63818",
+  "records": {
+    "articles": 12,
+    "cards": 5,
+    "drafts": 4,
+    "jobs": 15,
+    "performance_records": 0,
+    "writing_runs": 3,
+    "topic_batches": 1,
+    "coze_roles": 2
+  },
+  "notes_sha256": "67d99fcadb12bbaa2c51c970bda6c721653ae7c4708d2d3dfef8aabd5491b413",
+  "snapshot_files": 78,
+  "note": "包含完整记录集合与 JSON/Markdown 导出；公开版精确替换采集内容中已确认联系信息，不是原数据的字节副本。密钥为空，Coze Token 未收入。首启恢复到应用 data 目录，已有数据库绝不覆盖。",
+  "database_format": "SQLite single-file snapshot; journal_mode=DELETE",
+  "public_redaction": {
+    "applied": true,
+    "fields": "Exact identified contact emails and phone numbers in collected source content",
+    "record_ids_and_counts_preserved": true,
+    "original_local_files_changed": false
+  }
+}

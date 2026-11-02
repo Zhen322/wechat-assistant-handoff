@@ -1,0 +1,394 @@
+{
+  "topics": {
+    "base_url": "https://krb2w8h9tf.coze.site",
+    "schema": {
+      "input_schema": {
+        "description": "工作流输入：均允许为空，不填写也能自动运行",
+        "properties": {
+          "topic": {
+            "default": "",
+            "description": "研究方向/临时选题（为空时默认车灯产业链）",
+            "title": "Topic",
+            "type": "string"
+          },
+          "keywords": {
+            "default": "",
+            "description": "补充搜索关键词（可选）",
+            "title": "Keywords",
+            "type": "string"
+          },
+          "links": {
+            "default": [],
+            "description": "补充参考资料链接（可选）",
+            "items": {
+              "type": "string"
+            },
+            "title": "Links",
+            "type": "array"
+          },
+          "auto_mode": {
+            "default": true,
+            "description": "自动模式：true自动筛选确认选题；false人工在线确认",
+            "title": "Auto Mode",
+            "type": "boolean"
+          },
+          "confirmed_topics": {
+            "default": [],
+            "description": "预置的已确认选题列表（可选，用于人工覆盖/跳过自动筛选）",
+            "items": {
+              "type": "string"
+            },
+            "title": "Confirmed Topics",
+            "type": "array"
+          }
+        },
+        "title": "GraphInput",
+        "type": "object"
+      },
+      "output_schema": {
+        "description": "工作流输出",
+        "properties": {
+          "candidates": {
+            "default": [],
+            "description": "5个核心候选选题",
+            "items": {
+              "additionalProperties": true,
+              "type": "object"
+            },
+            "title": "Candidates",
+            "type": "array"
+          },
+          "topic_plans": {
+            "default": [],
+            "description": "huashu方法生成的具体选题方案",
+            "items": {
+              "additionalProperties": true,
+              "type": "object"
+            },
+            "title": "Topic Plans",
+            "type": "array"
+          },
+          "diverged_topics": {
+            "default": [],
+            "description": "5个核心选题及其各自3-5个话题裂变：[{core_topic, core, diverged:[...]}]",
+            "items": {
+              "additionalProperties": true,
+              "type": "object"
+            },
+            "title": "Diverged Topics",
+            "type": "array"
+          },
+          "confirmed_topics": {
+            "default": [],
+            "description": "最终确认执行的选题列表",
+            "items": {
+              "type": "string"
+            },
+            "title": "Confirmed Topics",
+            "type": "array"
+          },
+          "selection": {
+            "default": [],
+            "description": "每个核心选题及其完整方案（含核心问题/读者/角度/环节/三段式大纲/事实来源/待核实项/优劣/工作量/理由）",
+            "items": {
+              "additionalProperties": true,
+              "type": "object"
+            },
+            "title": "Selection",
+            "type": "array"
+          },
+          "run_status": {
+            "default": [],
+            "description": "各节点运行状态与结果统计",
+            "items": {
+              "additionalProperties": true,
+              "type": "object"
+            },
+            "title": "Run Status",
+            "type": "array"
+          },
+          "report_url": {
+            "default": "",
+            "description": "最终生成的 HTML 选题报告地址（对象存储网页 URL，结果页可直接渲染查看）",
+            "title": "Report Url",
+            "type": "string"
+          }
+        },
+        "title": "GraphOutput",
+        "type": "object"
+      },
+      "code": 0,
+      "msg": ""
+    },
+    "schema_fetched_at": "2026-10-13T07:11:07.323892+00:00",
+    "last_run_at": "2026-10-13T07:17:55.304262+00:00",
+    "updated_at": "2026-10-13T06:57:57.024065+00:00"
+  },
+  "writer": {
+    "base_url": "https://8twnfnq6ct.coze.site",
+    "schema": {
+      "input_schema": {
+        "description": "工作流输入",
+        "properties": {
+          "task_mode": {
+            "default": "write_article",
+            "description": "任务模式：write_article/collect_titles/import_library/export_library/import_articles",
+            "title": "Task Mode",
+            "type": "string"
+          },
+          "topic": {
+            "default": "",
+            "description": "本次写作题目或核心问题",
+            "title": "Topic",
+            "type": "string"
+          },
+          "materials": {
+            "default": "",
+            "description": "用户提供的资料文本、链接、观点",
+            "title": "Materials",
+            "type": "string"
+          },
+          "target_readers": {
+            "default": "",
+            "description": "目标读者",
+            "title": "Target Readers",
+            "type": "string"
+          },
+          "word_count": {
+            "default": "约1500字",
+            "description": "文章长度",
+            "title": "Word Count",
+            "type": "string"
+          },
+          "author_view": {
+            "default": "",
+            "description": "作者观点或真实经历",
+            "title": "Author View",
+            "type": "string"
+          },
+          "style_sample": {
+            "default": "",
+            "description": "参考风格样本",
+            "title": "Style Sample",
+            "type": "string"
+          },
+          "extra_req": {
+            "default": "",
+            "description": "其他特殊要求",
+            "title": "Extra Req",
+            "type": "string"
+          },
+          "search_keywords": {
+            "default": "",
+            "description": "搜索关键词",
+            "title": "Search Keywords",
+            "type": "string"
+          },
+          "days_back": {
+            "default": 30,
+            "description": "搜索时间范围（天）",
+            "title": "Days Back",
+            "type": "integer"
+          },
+          "max_results": {
+            "default": 10,
+            "description": "最多返回案例数",
+            "title": "Max Results",
+            "type": "integer"
+          },
+          "auto_search": {
+            "default": true,
+            "description": "写作时是否联网补充标题参考",
+            "title": "Auto Search",
+            "type": "boolean"
+          },
+          "library_file": {
+            "default": null,
+            "description": "需要导入的 Markdown 文件引用",
+            "title": "Library File"
+          },
+          "article_library_file": {
+            "default": null,
+            "description": "需要导入的正文章例 Markdown 文件引用",
+            "title": "Article Library File"
+          }
+        },
+        "title": "GraphInput",
+        "type": "object"
+      },
+      "output_schema": {
+        "description": "工作流输出（按 task_mode 择一填充）",
+        "properties": {
+          "task_mode": {
+            "description": "任务模式",
+            "title": "Task Mode",
+            "type": "string"
+          },
+          "title": {
+            "default": "",
+            "description": "推荐标题",
+            "title": "Title",
+            "type": "string"
+          },
+          "alt_titles": {
+            "default": [],
+            "description": "其余备选标题",
+            "items": {
+              "type": "string"
+            },
+            "title": "Alt Titles",
+            "type": "array"
+          },
+          "opening_hook": {
+            "default": "",
+            "description": "痛点开头",
+            "title": "Opening Hook",
+            "type": "string"
+          },
+          "article": {
+            "default": "",
+            "description": "完整公众号正文（痛点开头+分论点+升华结尾）",
+            "title": "Article",
+            "type": "string"
+          },
+          "point_view": {
+            "default": [],
+            "description": "正文分论点",
+            "items": {
+              "type": "string"
+            },
+            "title": "Point View",
+            "type": "array"
+          },
+          "closing_rising": {
+            "default": "",
+            "description": "升华结尾",
+            "title": "Closing Rising",
+            "type": "string"
+          },
+          "title_ref_note": {
+            "default": "",
+            "description": "标题参考说明",
+            "title": "Title Ref Note",
+            "type": "string"
+          },
+          "summary": {
+            "default": "",
+            "description": "文章摘要",
+            "title": "Summary",
+            "type": "string"
+          },
+          "cover_copy": {
+            "default": "",
+            "description": "封面文案",
+            "title": "Cover Copy",
+            "type": "string"
+          },
+          "cover_prompt": {
+            "default": "",
+            "description": "封面配图提示词",
+            "title": "Cover Prompt",
+            "type": "string"
+          },
+          "share_reco": {
+            "default": "",
+            "description": "分享推荐语",
+            "title": "Share Reco",
+            "type": "string"
+          },
+          "sources": {
+            "default": [],
+            "description": "事实来源",
+            "items": {
+              "type": "string"
+            },
+            "title": "Sources",
+            "type": "array"
+          },
+          "editor_notes": {
+            "default": "",
+            "description": "编辑备注/补充信息",
+            "title": "Editor Notes",
+            "type": "string"
+          },
+          "write_report": {
+            "default": "",
+            "description": "写作模式汇总说明",
+            "title": "Write Report",
+            "type": "string"
+          },
+          "collected_items": {
+            "description": "采集候选表",
+            "items": {
+              "additionalProperties": true,
+              "type": "object"
+            },
+            "title": "Collected Items",
+            "type": "array"
+          },
+          "collect_report": {
+            "default": "",
+            "description": "采集模式说明",
+            "title": "Collect Report",
+            "type": "string"
+          },
+          "import_report": {
+            "default": "",
+            "description": "导入处理统计",
+            "title": "Import Report",
+            "type": "string"
+          },
+          "export_url": {
+            "default": "",
+            "description": "导出对象存储 URL",
+            "title": "Export Url",
+            "type": "string"
+          },
+          "export_path": {
+            "default": "",
+            "description": "导出本地文件路径",
+            "title": "Export Path",
+            "type": "string"
+          },
+          "article_refs": {
+            "description": "正文素材参考（含网页化结构）",
+            "items": {
+              "additionalProperties": true,
+              "type": "object"
+            },
+            "title": "Article Refs",
+            "type": "array"
+          },
+          "article_ref_report": {
+            "default": "",
+            "description": "正文素材检索说明",
+            "title": "Article Ref Report",
+            "type": "string"
+          },
+          "article_import_report": {
+            "default": "",
+            "description": "正文案例导入统计",
+            "title": "Article Import Report",
+            "type": "string"
+          },
+          "article_ref_note": {
+            "default": "",
+            "description": "正文素材引用说明",
+            "title": "Article Ref Note",
+            "type": "string"
+          }
+        },
+        "required": [
+          "task_mode"
+        ],
+        "title": "GraphOutput",
+        "type": "object"
+      },
+      "code": 0,
+      "msg": ""
+    },
+    "schema_fetched_at": "2026-10-13T06:58:18.745502+00:00",
+    "last_run_at": null,
+    "updated_at": "2026-10-13T06:57:57.024545+00:00"
+  }
+}

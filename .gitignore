@@ -1,0 +1,17 @@
+# Runtime environments and generated state
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+.workbuddy-ai/
+
+# Live workspace credentials and mutable database; audited handoff-data stays tracked.
+/文案助手/wechat-writer/data/settings.json
+/文案助手/wechat-writer/data/coze_secrets.json
+/文案助手/wechat-writer/data/*.sqlite*
+/文案助手/wechat-writer/data/*.db*
+/文案助手/wechat-writer/data/*.log
+/文案助手/wechat-writer/data/*.pid
+/文案助手/wechat-writer/data/backups/
+
+# Sanitized historical ZIPs and handoff snapshots are intentionally tracked.

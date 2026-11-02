@@ -1,0 +1,950 @@
+{
+  "handoff_date": "2026-11-02",
+  "repository": "Zhen322/wechat-assistant-handoff",
+  "visibility": "public",
+  "scope": "全部交付文件，不含本清单自身；原件敏感配置、可重建环境按处理清单排除",
+  "file_count": 188,
+  "total_bytes": 4989680,
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 564,
+      "sha256": "a7415b1b673bb57f4021352a659102156d0f4485e0ea70c8e820a7e6d9c668f1"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6600,
+      "sha256": "a837e7028b73a127b5221cf125fadeaffafd5423e554e1b0a089d3a0b6c6fb22"
+    },
+    {
+      "path": "handoff-data/README.md",
+      "bytes": 3004,
+      "sha256": "266fc5775e607551a063b12c34f284e4eab6c25b66a4cd7cd82bfcd5f71db202"
+    },
+    {
+      "path": "handoff-data/data/articles/075f93f398324acbb6a5477b746a68d6.json",
+      "bytes": 3835,
+      "sha256": "8a8e6c92b8123c9af9e67ac84a9c18e872715d13a66feb597de39d56c6f26f79"
+    },
+    {
+      "path": "handoff-data/data/articles/075f93f398324acbb6a5477b746a68d6.md",
+      "bytes": 3491,
+      "sha256": "b5a3d22a9dc3926a1363de45cbcb9e3c2402b1ed766df4228346a970f54f9879"
+    },
+    {
+      "path": "handoff-data/data/articles/4398e1c239794427b21a928062bc4ff5.json",
+      "bytes": 9368,
+      "sha256": "785d53b741ad5e19d8895f622b804240e1d58bea2502cdf0776aa3e974666ab9"
+    },
+    {
+      "path": "handoff-data/data/articles/4398e1c239794427b21a928062bc4ff5.md",
+      "bytes": 8188,
+      "sha256": "f46bbbb8ea6d6fa1d1e48b4aea1ce907d973e87ef6b2046c9068ab899ac12c25"
+    },
+    {
+      "path": "handoff-data/data/articles/4861116e012c48e79ca08bf3b6e6103d.json",
+      "bytes": 12886,
+      "sha256": "950995b373aadb658d4ee17fd665d326ee8b1628bc3559e76d10866935c2c23b"
+    },
+    {
+      "path": "handoff-data/data/articles/4861116e012c48e79ca08bf3b6e6103d.md",
+      "bytes": 12202,
+      "sha256": "4122c1444aecb1605ffd7bf31695b6a9d46e33c38a1d85f73b6d21a6c514bdab"
+    },
+    {
+      "path": "handoff-data/data/articles/55da66a470ab4aab9f79c8cd1f3f55cd.json",
+      "bytes": 1916,
+      "sha256": "7d38fbb3ee33d8e4961f3085721e3d3c30b66302f5ec09eb3c6c0a6748b386b8"
+    },
+    {
+      "path": "handoff-data/data/articles/55da66a470ab4aab9f79c8cd1f3f55cd.md",
+      "bytes": 1572,
+      "sha256": "ce470d35ae7e993efdddc90c04a1e90655bff26bdbe673685a0a8d05931b93c9"
+    },
+    {
+      "path": "handoff-data/data/articles/5ba3ea3fed3c4743959e2027297d581c.json",
+      "bytes": 4409,
+      "sha256": "31b7dc8bb708826b6cc6449803c62f0d7c9a6a51791f06f55f09124363b42a63"
+    },
+    {
+      "path": "handoff-data/data/articles/5ba3ea3fed3c4743959e2027297d581c.md",
+      "bytes": 4027,
+      "sha256": "856a23f4f4ad89502428b506db7edc2777bafd33ec52ea4d281f3d7a7a4d148e"
+    },
+    {
+      "path": "handoff-data/data/articles/7220100e0c6a41c4a4634c078b76c26d.json",
+      "bytes": 4078,
+      "sha256": "840497157b01db16b3ed3a7925bbcc95a44fe247edf810d945b7f104e2a52808"
+    },
+    {
+      "path": "handoff-data/data/articles/7220100e0c6a41c4a4634c078b76c26d.md",
+      "bytes": 3717,
+      "sha256": "b4ac9ecdce3bdf856c8cce0de20f4ef415eb26b6f9d2234f1edd5f30fb7f632c"
+    },
+    {
+      "path": "handoff-data/data/articles/7e163562c8c44c6785e073a8042d6776.json",
+      "bytes": 12823,
+      "sha256": "c4210a507630f99bf7b08f688c9c725841901b4d148a3c2026dda2b23a4ac15c"
+    },
+    {
+      "path": "handoff-data/data/articles/7e163562c8c44c6785e073a8042d6776.md",
+      "bytes": 12247,
+      "sha256": "026aca1008502fd69537989f5b336072753300d8dd721d4869deaf23287babe2"
+    },
+    {
+      "path": "handoff-data/data/articles/9cda1172bc3548b68c02a7a0725235bd.json",
+      "bytes": 3381,
+      "sha256": "efedc796aaa980b7aac4065b31b06ee455754ebabcbe093fb0fa07c6d00f97cf"
+    },
+    {
+      "path": "handoff-data/data/articles/9cda1172bc3548b68c02a7a0725235bd.md",
+      "bytes": 3036,
+      "sha256": "54726a1f7d854dcb24c85fe18d2da342c25380a0b2c6252ab5f16741359648d3"
+    },
+    {
+      "path": "handoff-data/data/articles/f23ee93b41e84deb948b45892fb87c1f.json",
+      "bytes": 1906,
+      "sha256": "29955e789b63edbff31872925c554669d26269d68f15ee530c18004678bd00ac"
+    },
+    {
+      "path": "handoff-data/data/articles/f23ee93b41e84deb948b45892fb87c1f.md",
+      "bytes": 1478,
+      "sha256": "7920552f0e1b1b2f1c83c2613f596edc7335a16991676aabfd1752b5f5d721a6"
+    },
+    {
+      "path": "handoff-data/data/articles/f24a854a28404d64934dfe59d39999f0.json",
+      "bytes": 4271,
+      "sha256": "921e0bf2e811673248afb32bfa1e776b1a49695896fede0ed9fe59c202d967f9"
+    },
+    {
+      "path": "handoff-data/data/articles/f24a854a28404d64934dfe59d39999f0.md",
+      "bytes": 3927,
+      "sha256": "e808e05b0a67cf06b475a96141704cd6ed2dc68a21d25d7a0d25cac1a26e32a0"
+    },
+    {
+      "path": "handoff-data/data/articles/f8562ee8b38c464a870e93435eb9a830.json",
+      "bytes": 6069,
+      "sha256": "b1f918c55e05b852d3fd91819e24b9222502663f38101ffa4377b1113aa417dd"
+    },
+    {
+      "path": "handoff-data/data/articles/f8562ee8b38c464a870e93435eb9a830.md",
+      "bytes": 5693,
+      "sha256": "e420e2ad8e27f28c58a8cccf0a529d8eaa9c95571c62bb9ed35438b7ccb1b9a8"
+    },
+    {
+      "path": "handoff-data/data/articles/f8669b0b85884e74b7bf4f9de5a5109b.json",
+      "bytes": 7806,
+      "sha256": "21490f2a418a41fb645e5092dc3517a90183b98565fcf892c9f115f886221d90"
+    },
+    {
+      "path": "handoff-data/data/articles/f8669b0b85884e74b7bf4f9de5a5109b.md",
+      "bytes": 6955,
+      "sha256": "9c25f853e0b4784784e5857aebc3d3c58aa07118f8530f6e743f2e32cfd53f93"
+    },
+    {
+      "path": "handoff-data/data/cards/3754e51ff56b486aa32eb298039e2cff.json",
+      "bytes": 696,
+      "sha256": "79c435178b9ca313f95e375770551e75281ecfd0caa12f9bb523cc252d6efe58"
+    },
+    {
+      "path": "handoff-data/data/cards/3754e51ff56b486aa32eb298039e2cff.md",
+      "bytes": 230,
+      "sha256": "758a62a0da7fe8198ad7d6661bf1fc3da08e1e26f44e569ec72fbaa2862602a0"
+    },
+    {
+      "path": "handoff-data/data/cards/6586ab1caafe4d4ba11771ca8741c520.json",
+      "bytes": 715,
+      "sha256": "9d3ed027c6fcb2400e248bdb78bad32a0b39b3490315b289ea7b8ce64b19ee73"
+    },
+    {
+      "path": "handoff-data/data/cards/6586ab1caafe4d4ba11771ca8741c520.md",
+      "bytes": 250,
+      "sha256": "bba1e7380df47398c1d6094ab82192d85159bf95033c6e6d24437f466e9f27b3"
+    },
+    {
+      "path": "handoff-data/data/cards/66119a4b271d4abfa924e3dad8d6d0b3.json",
+      "bytes": 741,
+      "sha256": "46ca7b9a01d3d6499715b2ac0ed7b2cfb9c9e980cf0f00debdc3ae6375157c3d"
+    },
+    {
+      "path": "handoff-data/data/cards/66119a4b271d4abfa924e3dad8d6d0b3.md",
+      "bytes": 272,
+      "sha256": "58cb3cf488f683e5032aa319c16c1594f6e928c863e268cb0a0703df242249fb"
+    },
+    {
+      "path": "handoff-data/data/cards/a7f03cdb16d244ddbfe5388ee8a7f90a.json",
+      "bytes": 705,
+      "sha256": "c067072aee3965a64bb3f6b5887f03fd955710b9f94768dc1bb14052268b0ddb"
+    },
+    {
+      "path": "handoff-data/data/cards/a7f03cdb16d244ddbfe5388ee8a7f90a.md",
+      "bytes": 239,
+      "sha256": "dd7af666d8eb5dedd8c0cf64e9e062b59380524c04e26c4c3bb81475cad1cd54"
+    },
+    {
+      "path": "handoff-data/data/cards/b3509530b94e4dd39a66ccfe730d4021.json",
+      "bytes": 667,
+      "sha256": "eb19c0d1df4b7bbbf1fa7a9670f5c0380b390faadf7d6f808e3b5fb66c9add8c"
+    },
+    {
+      "path": "handoff-data/data/cards/b3509530b94e4dd39a66ccfe730d4021.md",
+      "bytes": 201,
+      "sha256": "cbc87d50c4152b5720d26c5e0295098e449dd86624b1432798590aaf995c7132"
+    },
+    {
+      "path": "handoff-data/data/coze/7e5317f9c2fd4ed88ecd5aec79cc4460.json",
+      "bytes": 49794,
+      "sha256": "97b3ff4af5bd0082bfebc9c4067f3bed214b3ee292e3112d68b5ea07f54ab398"
+    },
+    {
+      "path": "handoff-data/data/coze/public-config.json",
+      "bytes": 12291,
+      "sha256": "46b294d8f27634bb1d9ece5274a3cd307268ec16c9bb21ef2e43970726d3f92e"
+    },
+    {
+      "path": "handoff-data/data/drafts/5365d56de9534dfe9a5789baacc54727.images.json",
+      "bytes": 5670,
+      "sha256": "0937b607b9891a1b410e9310e65df6e9a02f5c8bfca128823a8c01d37c4df4f5"
+    },
+    {
+      "path": "handoff-data/data/drafts/5365d56de9534dfe9a5789baacc54727.json",
+      "bytes": 12645,
+      "sha256": "8ead6ee1f2c4c85b0ef6fe5a0482636df415924575f18e048be7a28ef8802134"
+    },
+    {
+      "path": "handoff-data/data/drafts/5365d56de9534dfe9a5789baacc54727.md",
+      "bytes": 4164,
+      "sha256": "e2acbfcadef1ee972d8d4421a07caa4617d5de5ace40b955dddb6cc4af195a41"
+    },
+    {
+      "path": "handoff-data/data/drafts/5365d56de9534dfe9a5789baacc54727.sources.json",
+      "bytes": 2620,
+      "sha256": "5f2b1c42985249d8db41aed054bbb92a7b000c1bf9d315db39034f78e52c0cd5"
+    },
+    {
+      "path": "handoff-data/data/drafts/571e56d06804423ab91851c759054a71.images.json",
+      "bytes": 5463,
+      "sha256": "58d135e18f07bebb1e13a6da48d65fc2c78f4b4d31ea787e8c8d39599f4cbbdc"
+    },
+    {
+      "path": "handoff-data/data/drafts/571e56d06804423ab91851c759054a71.json",
+      "bytes": 18461,
+      "sha256": "f2f74b167097fc166058b592276f0cf613bf18e45440c5e2e10a0ee15b67051c"
+    },
+    {
+      "path": "handoff-data/data/drafts/571e56d06804423ab91851c759054a71.md",
+      "bytes": 7477,
+      "sha256": "805778f15fb535e10579146c149f819c59186ccd685abea92b3805b8ea63493d"
+    },
+    {
+      "path": "handoff-data/data/drafts/571e56d06804423ab91851c759054a71.sources.json",
+      "bytes": 5334,
+      "sha256": "e53957bc4c2f96cef7416d58a569271c6923990df2c29df84de13cda9619707b"
+    },
+    {
+      "path": "handoff-data/data/drafts/77843d49ea364737a27ce653b830fd53.images.json",
+      "bytes": 6054,
+      "sha256": "ee29c897447184d1eabc15eb87438b101455f7402c268a5f1776130d37344990"
+    },
+    {
+      "path": "handoff-data/data/drafts/77843d49ea364737a27ce653b830fd53.json",
+      "bytes": 48686,
+      "sha256": "16850f238b180b904e69005d3257f2bdafa68b6044cc576327a1c83ab3242488"
+    },
+    {
+      "path": "handoff-data/data/drafts/77843d49ea364737a27ce653b830fd53.md",
+      "bytes": 4675,
+      "sha256": "0736d7b471fb71b072024a2693df7a8677a2a749a0c90afc77e2c9a80dae0bec"
+    },
+    {
+      "path": "handoff-data/data/drafts/77843d49ea364737a27ce653b830fd53.sources.json",
+      "bytes": 37574,
+      "sha256": "6916dbd61740c868906de92af57784a9ffd737a9ca1b52660088b1012b8eadda"
+    },
+    {
+      "path": "handoff-data/data/drafts/7f5bbfc6177443459bbe87961f02c3ff.json",
+      "bytes": 5008,
+      "sha256": "5e9eb40c863582c380a284156a913468434dbc8fa1ff657314cada2b4884fc5b"
+    },
+    {
+      "path": "handoff-data/data/drafts/7f5bbfc6177443459bbe87961f02c3ff.md",
+      "bytes": 2519,
+      "sha256": "07e85155e635f62ebd4dd193ba5f6dbf0d6c307c2277428a6e0978e991273b41"
+    },
+    {
+      "path": "handoff-data/data/drafts/7f5bbfc6177443459bbe87961f02c3ff.sources.json",
+      "bytes": 2486,
+      "sha256": "abf8a0fe3f6b5440b082d97c2e883808cac83981b150830a8fd169f67982923e"
+    },
+    {
+      "path": "handoff-data/data/notes/我的思考.md",
+      "bytes": 951,
+      "sha256": "67d99fcadb12bbaa2c51c970bda6c721653ae7c4708d2d3dfef8aabd5491b413"
+    },
+    {
+      "path": "handoff-data/data/settings.json",
+      "bytes": 297,
+      "sha256": "c28ece79e882ac5c89a579c67c64e3b39e26739da851fdb7d4ccb5f935b93d25"
+    },
+    {
+      "path": "handoff-data/data/topics/66ed42e011724f75953c7dad9b320f50.json",
+      "bytes": 57813,
+      "sha256": "dc9bb6fb00522933afb9fdfe9c3178b1eaa0d09e14a8d94c80ad3ee3619492c1"
+    },
+    {
+      "path": "handoff-data/data/topics/66ed42e011724f75953c7dad9b320f50.md",
+      "bytes": 49036,
+      "sha256": "c24338d9e5361db4b136a033345db501bfe82ecf0dad3328ef47217de5c585ae"
+    },
+    {
+      "path": "handoff-data/data/workspace.sqlite3",
+      "bytes": 1069056,
+      "sha256": "ebbe83e563f02c2e89ddab83639f4d3e279235ecd2459befa829df9d91a63818"
+    },
+    {
+      "path": "handoff-data/data/writing-policy/SKILL.md",
+      "bytes": 2067,
+      "sha256": "f271c864cbe1b9f9319d9069404ecbe3b1e30783d02ced2431eee950b6587770"
+    },
+    {
+      "path": "handoff-data/data/writing-policy/config.json",
+      "bytes": 17,
+      "sha256": "63436890ccea51cdcadd3bba40fa336be149e1015a28fcf207df052be19840e1"
+    },
+    {
+      "path": "handoff-data/data/writing-policy/references/deep.md",
+      "bytes": 1027,
+      "sha256": "43f03b189b6e5e266f1a819a41814a7d68e8bd2d810cfbda48586a6fbfa54ad8"
+    },
+    {
+      "path": "handoff-data/data/writing-policy/references/style-extraction.md",
+      "bytes": 677,
+      "sha256": "72e3ff1380bdab69080552728720bd2d18b766c98c2812c5b5b166484204d632"
+    },
+    {
+      "path": "handoff-data/data/writing-policy/references/来源与适配.md",
+      "bytes": 3943,
+      "sha256": "e0370c8cbcc65e2db695263501768ee03e569b92e4c6a06c878715f47ab78d03"
+    },
+    {
+      "path": "handoff-data/data/writing-policy/sources.json",
+      "bytes": 3820,
+      "sha256": "3eb3b464200b93e65203f62a0b9c22ee11399ec358ebf43427209729a6dd367d"
+    },
+    {
+      "path": "handoff-data/data/writing-policy/stages/body.md",
+      "bytes": 1134,
+      "sha256": "1b02117501ee3d5c31b64b071abbde259762fd72855b215096daa18a9dd8b474"
+    },
+    {
+      "path": "handoff-data/data/writing-policy/stages/fact_audit.md",
+      "bytes": 899,
+      "sha256": "ed3825772bf0385595549a3bf5028c2dca096a08880a8dba7e9af889973beacd"
+    },
+    {
+      "path": "handoff-data/data/writing-policy/stages/facts.md",
+      "bytes": 1034,
+      "sha256": "1f4cc92438fbcda306a420fda49e57d5c97cffd0f37c00550c15a7aae2f30091"
+    },
+    {
+      "path": "handoff-data/data/writing-policy/stages/language_audit.md",
+      "bytes": 872,
+      "sha256": "1679cb4d6bed810bb128670564b2aa36f1163d3ec4f77eeede90d61c52df0477"
+    },
+    {
+      "path": "handoff-data/data/writing-policy/stages/outline.md",
+      "bytes": 1070,
+      "sha256": "faa4d89f36dd1eebd1906f63fb087754ae62c4dfe7741ccb19b35860d54fd878"
+    },
+    {
+      "path": "handoff-data/data/writing-policy/stages/package.md",
+      "bytes": 1113,
+      "sha256": "e95f2c8d40370d77d4ea6206d1ffec274f3cf28bd0f735e3bc4766081c76da4c"
+    },
+    {
+      "path": "handoff-data/data/writing-policy/stages/repair.md",
+      "bytes": 685,
+      "sha256": "2591f9e5b01753ce98e3da949f3289e6b3a93a26ef884858ec99d7b8c88e493f"
+    },
+    {
+      "path": "handoff-data/data/writing-policy/stages/title.md",
+      "bytes": 965,
+      "sha256": "634f5302ad1ecb24ce2e042e6f603408d1d2fd63b71588d8bd7e7b79f3a5c387"
+    },
+    {
+      "path": "handoff-data/data/writing-policy/主写作提示词.md",
+      "bytes": 21489,
+      "sha256": "4ebd2f2710f808ef3ffabd2b46701d8886df45820e83694b45065fb077be87f1"
+    },
+    {
+      "path": "handoff-data/data/writing-policy/用户原始提示词.md",
+      "bytes": 21489,
+      "sha256": "4ebd2f2710f808ef3ffabd2b46701d8886df45820e83694b45065fb077be87f1"
+    },
+    {
+      "path": "handoff-data/data/writing/1a7621ba3be94cba9d9bed3b6a3e171f.json",
+      "bytes": 39813,
+      "sha256": "89ad0eb5a7bbc652c67e2706236d7f69646d410c76887d651be90cea2b8b38bd"
+    },
+    {
+      "path": "handoff-data/data/writing/1a7621ba3be94cba9d9bed3b6a3e171f.md",
+      "bytes": 1295,
+      "sha256": "b3f7d0d8ad7963156c1a78aab3c2b37246600367c8e0c7bdfdacb1937d961040"
+    },
+    {
+      "path": "handoff-data/data/writing/be134443b24246e08525c0dddeb033ce.json",
+      "bytes": 187377,
+      "sha256": "385480fb72f1961ca4fdc6115ffbde3ad38a190b4cb9c1eca69a1ff52c4984e2"
+    },
+    {
+      "path": "handoff-data/data/writing/be134443b24246e08525c0dddeb033ce.md",
+      "bytes": 37218,
+      "sha256": "578176e4b0b914e978f0c3b8a1b05e4d03bbd23e86bf5001208e8b8d1c81d611"
+    },
+    {
+      "path": "handoff-data/data/writing/f272356a78f542d6b94e2a3ae4acddd3.json",
+      "bytes": 39813,
+      "sha256": "a190f57d0d54339b9b77991587528617fa13e2ce1f4d002b6e6e5cac9e4cdf15"
+    },
+    {
+      "path": "handoff-data/data/writing/f272356a78f542d6b94e2a3ae4acddd3.md",
+      "bytes": 1295,
+      "sha256": "b3f7d0d8ad7963156c1a78aab3c2b37246600367c8e0c7bdfdacb1937d961040"
+    },
+    {
+      "path": "handoff-data/snapshot-manifest.json",
+      "bytes": 1186,
+      "sha256": "1ee50ccfede4ed9eb1a9293e55494a3f6be69b2d2e170a64c98573b06b71c241"
+    },
+    {
+      "path": "restore-data.py",
+      "bytes": 4519,
+      "sha256": "f254a7644f81ed498cb8bdb3408e41e25b52a5aece23b60c1fa96139db9e1707"
+    },
+    {
+      "path": "start.command",
+      "bytes": 97,
+      "sha256": "3eeb94972fa5344fbe6bd443d67f352647792c58f8969449ef546d6dfcff34ec"
+    },
+    {
+      "path": "start.py",
+      "bytes": 1158,
+      "sha256": "8c867ad8fda96f43cbb176f53198a93e90269db758d616e144345f8bb561e129"
+    },
+    {
+      "path": "交接文档/交接清单.md",
+      "bytes": 4336,
+      "sha256": "7da87250b9f04ba22698239167f33f0da0f20b80a2593ab63e542f02eb26b7db"
+    },
+    {
+      "path": "交接文档/完整性校验.py",
+      "bytes": 1036,
+      "sha256": "9317cd6f3ae854abc30488fad37bce38f19abcc321bd92e409436157e8cef4bb"
+    },
+    {
+      "path": "交接文档/排除与处理清单.json",
+      "bytes": 3428,
+      "sha256": "aafc0896bf71f4751065d15b967948ed7a7972ab859edfba6521d8c5e6295489"
+    },
+    {
+      "path": "交接文档/文件检查说明.md",
+      "bytes": 3127,
+      "sha256": "f022b09dc946224abc0ec0f3b5284c039cf5b9bff42f678be527d52c31666e69"
+    },
+    {
+      "path": "交接文档/验证结果.json",
+      "bytes": 1169,
+      "sha256": "b2369df5546b44aa7f967fdf6989adb590406aba2d15225d3d2d27d6b6f75640"
+    },
+    {
+      "path": "公众号助手_完整源码_20261019.zip",
+      "bytes": 1219185,
+      "sha256": "c71ffcea6880590286ea66ec9470132fa8cea3d45a49bd896409c7bf66fd08fe"
+    },
+    {
+      "path": "公众号撰写助手/AI辅助爆款内容创作_结构化笔记.md",
+      "bytes": 26208,
+      "sha256": "be3d9002671510cd2b257f5e7abf8f9ffb82cd6ab1f3c21b4d2120517f7ec907"
+    },
+    {
+      "path": "公众号撰写助手/公众号标题案例库_模板.md",
+      "bytes": 8189,
+      "sha256": "5b900d2bc55ff63a4119a28520d0dfc630d1b064a217e833a2b95223d475c6e2"
+    },
+    {
+      "path": "公众号撰写助手/选题skill.zip",
+      "bytes": 1986,
+      "sha256": "fd20763c012adb556264c11b1fb0a4e0749c43e86f23e339c02c106f571efe40"
+    },
+    {
+      "path": "对标文章.md",
+      "bytes": 6928,
+      "sha256": "daae7db430a175fbefdece20501e0a725da939167ac16519a42f50991939a52a"
+    },
+    {
+      "path": "工作汇报_车灯内容运营体系与新媒体工具建设_20261015.md",
+      "bytes": 22463,
+      "sha256": "5a2d741b2ab0e4ca6828fa6905c7cdcef87ea4cf8764300f6a0d143eb8d7167a"
+    },
+    {
+      "path": "思考.docx",
+      "bytes": 20158,
+      "sha256": "3243a47b87edfe8a8c761d97773b3b967e947b785a8a936744d5304b04e893c3"
+    },
+    {
+      "path": "文案助手/wechat-writer-backups/文案工作台备份-20261013-112737-102740.zip",
+      "bytes": 187327,
+      "sha256": "9bddd58d852f106b3d547ddbe6a07082a14578678a8d01a539d5f1e398f006a5"
+    },
+    {
+      "path": "文案助手/wechat-writer-backups/文案工作台备份-20261013-113024-750306.zip",
+      "bytes": 187496,
+      "sha256": "f69526843105c227455b81e0ac351b81d1dc503d9b2b803a9b6722404f6e7d84"
+    },
+    {
+      "path": "文案助手/wechat-writer/.gitignore",
+      "bytes": 290,
+      "sha256": "7ad282b7b549e42fba2078ffffc08e6e865676dbd134d46ba52c9bfdfaf1e8ad"
+    },
+    {
+      "path": "文案助手/wechat-writer/CONTRACT.md",
+      "bytes": 18060,
+      "sha256": "4935c7c65d1d339bf4add69bb15dde6eb05bc6a43f10c241d5b1b5d31647b2cf"
+    },
+    {
+      "path": "文案助手/wechat-writer/README.md",
+      "bytes": 3937,
+      "sha256": "7f30cd64253462fb551fb9460b49096b4f006427cdf4a79735b2caffeb9a3fed"
+    },
+    {
+      "path": "文案助手/wechat-writer/app.py",
+      "bytes": 57089,
+      "sha256": "9989e62723e5cd5125eb4a22e45f86f3c083370fbc67b850f22293a144160ad7"
+    },
+    {
+      "path": "文案助手/wechat-writer/backup.command",
+      "bytes": 230,
+      "sha256": "16abb9d3126764ab30d1b778cf12bae09e6f7702f177383db910ff8a7e60ce51"
+    },
+    {
+      "path": "文案助手/wechat-writer/backup.py",
+      "bytes": 16194,
+      "sha256": "7892ada1689b5c670f185ec7bb2d9d652c5820bc4aa5985e669a66c8ea5067a0"
+    },
+    {
+      "path": "文案助手/wechat-writer/coze_bridge.py",
+      "bytes": 28162,
+      "sha256": "c80e65617d2eae19876e6c727988a98a820b75e752462e65efa83f465f2ea559"
+    },
+    {
+      "path": "文案助手/wechat-writer/coze_quick.py",
+      "bytes": 17880,
+      "sha256": "444cf2acf74c39de56ba1ac840fe3159bfb5b9cda115ffa9d96159ff3663ed55"
+    },
+    {
+      "path": "文案助手/wechat-writer/data/cards/3754e51ff56b486aa32eb298039e2cff.md",
+      "bytes": 434,
+      "sha256": "f5dc39d73581e872df4a887bd1eb880f3e9f209f37c86b0db9b4459255345459"
+    },
+    {
+      "path": "文案助手/wechat-writer/data/cards/6586ab1caafe4d4ba11771ca8741c520.md",
+      "bytes": 463,
+      "sha256": "5e274c9b7f64215854b2d5e31ca1fc460b3500a53a87f8c4b52a61cb528b339c"
+    },
+    {
+      "path": "文案助手/wechat-writer/data/cards/66119a4b271d4abfa924e3dad8d6d0b3.md",
+      "bytes": 476,
+      "sha256": "0ce4aaee4692500d2330c7ea7ad2c71f7a9e0800869dd3b0469ac733a9178c1b"
+    },
+    {
+      "path": "文案助手/wechat-writer/data/cards/a7f03cdb16d244ddbfe5388ee8a7f90a.md",
+      "bytes": 443,
+      "sha256": "ef4b1c3ab15b6a6f70e24c434e19a7796d145385e2ab304b1942d35a19198db7"
+    },
+    {
+      "path": "文案助手/wechat-writer/data/cards/b3509530b94e4dd39a66ccfe730d4021.md",
+      "bytes": 405,
+      "sha256": "a4f7683897b4dfafe8b632b51f8af8f56389a7125506447d8031c858513177d9"
+    },
+    {
+      "path": "文案助手/wechat-writer/data/drafts/5365d56de9534dfe9a5789baacc54727.images.json",
+      "bytes": 5670,
+      "sha256": "0937b607b9891a1b410e9310e65df6e9a02f5c8bfca128823a8c01d37c4df4f5"
+    },
+    {
+      "path": "文案助手/wechat-writer/data/drafts/5365d56de9534dfe9a5789baacc54727.md",
+      "bytes": 4164,
+      "sha256": "e2acbfcadef1ee972d8d4421a07caa4617d5de5ace40b955dddb6cc4af195a41"
+    },
+    {
+      "path": "文案助手/wechat-writer/data/drafts/5365d56de9534dfe9a5789baacc54727.sources.json",
+      "bytes": 2379,
+      "sha256": "44fa670e722587f7222e2c96cb6a4ee144c3abec01d5d792faf0070a0aef7672"
+    },
+    {
+      "path": "文案助手/wechat-writer/data/drafts/571e56d06804423ab91851c759054a71.images.json",
+      "bytes": 5463,
+      "sha256": "58d135e18f07bebb1e13a6da48d65fc2c78f4b4d31ea787e8c8d39599f4cbbdc"
+    },
+    {
+      "path": "文案助手/wechat-writer/data/drafts/571e56d06804423ab91851c759054a71.md",
+      "bytes": 7477,
+      "sha256": "805778f15fb535e10579146c149f819c59186ccd685abea92b3805b8ea63493d"
+    },
+    {
+      "path": "文案助手/wechat-writer/data/drafts/571e56d06804423ab91851c759054a71.sources.json",
+      "bytes": 5093,
+      "sha256": "1ade6242da6722d1cebbb658ea7712c23ea623029b6024eb33fcb5a3bc9a4d79"
+    },
+    {
+      "path": "文案助手/wechat-writer/data/drafts/77843d49ea364737a27ce653b830fd53.images.json",
+      "bytes": 6054,
+      "sha256": "ee29c897447184d1eabc15eb87438b101455f7402c268a5f1776130d37344990"
+    },
+    {
+      "path": "文案助手/wechat-writer/data/drafts/77843d49ea364737a27ce653b830fd53.md",
+      "bytes": 4675,
+      "sha256": "0736d7b471fb71b072024a2693df7a8677a2a749a0c90afc77e2c9a80dae0bec"
+    },
+    {
+      "path": "文案助手/wechat-writer/data/drafts/77843d49ea364737a27ce653b830fd53.sources.json",
+      "bytes": 37574,
+      "sha256": "6916dbd61740c868906de92af57784a9ffd737a9ca1b52660088b1012b8eadda"
+    },
+    {
+      "path": "文案助手/wechat-writer/data/drafts/7f5bbfc6177443459bbe87961f02c3ff.md",
+      "bytes": 2519,
+      "sha256": "07e85155e635f62ebd4dd193ba5f6dbf0d6c307c2277428a6e0978e991273b41"
+    },
+    {
+      "path": "文案助手/wechat-writer/data/drafts/7f5bbfc6177443459bbe87961f02c3ff.sources.json",
+      "bytes": 2245,
+      "sha256": "b3fe4fff1b7180c36480eb351db2a5c708a082c3940b9485559790a65a4f8b69"
+    },
+    {
+      "path": "文案助手/wechat-writer/data/notes/我的思考.md",
+      "bytes": 951,
+      "sha256": "67d99fcadb12bbaa2c51c970bda6c721653ae7c4708d2d3dfef8aabd5491b413"
+    },
+    {
+      "path": "文案助手/wechat-writer/data/topics/66ed42e011724f75953c7dad9b320f50.json",
+      "bytes": 57813,
+      "sha256": "dc9bb6fb00522933afb9fdfe9c3178b1eaa0d09e14a8d94c80ad3ee3619492c1"
+    },
+    {
+      "path": "文案助手/wechat-writer/data/topics/66ed42e011724f75953c7dad9b320f50.md",
+      "bytes": 49036,
+      "sha256": "c24338d9e5361db4b136a033345db501bfe82ecf0dad3328ef47217de5c585ae"
+    },
+    {
+      "path": "文案助手/wechat-writer/data/writing-policy/SKILL.md",
+      "bytes": 2067,
+      "sha256": "f271c864cbe1b9f9319d9069404ecbe3b1e30783d02ced2431eee950b6587770"
+    },
+    {
+      "path": "文案助手/wechat-writer/data/writing-policy/config.json",
+      "bytes": 17,
+      "sha256": "63436890ccea51cdcadd3bba40fa336be149e1015a28fcf207df052be19840e1"
+    },
+    {
+      "path": "文案助手/wechat-writer/data/writing-policy/references/deep.md",
+      "bytes": 1027,
+      "sha256": "43f03b189b6e5e266f1a819a41814a7d68e8bd2d810cfbda48586a6fbfa54ad8"
+    },
+    {
+      "path": "文案助手/wechat-writer/data/writing-policy/references/style-extraction.md",
+      "bytes": 677,
+      "sha256": "72e3ff1380bdab69080552728720bd2d18b766c98c2812c5b5b166484204d632"
+    },
+    {
+      "path": "文案助手/wechat-writer/data/writing-policy/references/来源与适配.md",
+      "bytes": 3943,
+      "sha256": "e0370c8cbcc65e2db695263501768ee03e569b92e4c6a06c878715f47ab78d03"
+    },
+    {
+      "path": "文案助手/wechat-writer/data/writing-policy/sources.json",
+      "bytes": 3820,
+      "sha256": "3eb3b464200b93e65203f62a0b9c22ee11399ec358ebf43427209729a6dd367d"
+    },
+    {
+      "path": "文案助手/wechat-writer/data/writing-policy/stages/body.md",
+      "bytes": 1134,
+      "sha256": "1b02117501ee3d5c31b64b071abbde259762fd72855b215096daa18a9dd8b474"
+    },
+    {
+      "path": "文案助手/wechat-writer/data/writing-policy/stages/fact_audit.md",
+      "bytes": 899,
+      "sha256": "ed3825772bf0385595549a3bf5028c2dca096a08880a8dba7e9af889973beacd"
+    },
+    {
+      "path": "文案助手/wechat-writer/data/writing-policy/stages/facts.md",
+      "bytes": 1034,
+      "sha256": "1f4cc92438fbcda306a420fda49e57d5c97cffd0f37c00550c15a7aae2f30091"
+    },
+    {
+      "path": "文案助手/wechat-writer/data/writing-policy/stages/language_audit.md",
+      "bytes": 872,
+      "sha256": "1679cb4d6bed810bb128670564b2aa36f1163d3ec4f77eeede90d61c52df0477"
+    },
+    {
+      "path": "文案助手/wechat-writer/data/writing-policy/stages/outline.md",
+      "bytes": 1070,
+      "sha256": "faa4d89f36dd1eebd1906f63fb087754ae62c4dfe7741ccb19b35860d54fd878"
+    },
+    {
+      "path": "文案助手/wechat-writer/data/writing-policy/stages/package.md",
+      "bytes": 1113,
+      "sha256": "e95f2c8d40370d77d4ea6206d1ffec274f3cf28bd0f735e3bc4766081c76da4c"
+    },
+    {
+      "path": "文案助手/wechat-writer/data/writing-policy/stages/repair.md",
+      "bytes": 685,
+      "sha256": "2591f9e5b01753ce98e3da949f3289e6b3a93a26ef884858ec99d7b8c88e493f"
+    },
+    {
+      "path": "文案助手/wechat-writer/data/writing-policy/stages/title.md",
+      "bytes": 965,
+      "sha256": "634f5302ad1ecb24ce2e042e6f603408d1d2fd63b71588d8bd7e7b79f3a5c387"
+    },
+    {
+      "path": "文案助手/wechat-writer/data/writing-policy/主写作提示词.md",
+      "bytes": 21489,
+      "sha256": "4ebd2f2710f808ef3ffabd2b46701d8886df45820e83694b45065fb077be87f1"
+    },
+    {
+      "path": "文案助手/wechat-writer/data/writing-policy/用户原始提示词.md",
+      "bytes": 21489,
+      "sha256": "4ebd2f2710f808ef3ffabd2b46701d8886df45820e83694b45065fb077be87f1"
+    },
+    {
+      "path": "文案助手/wechat-writer/data/writing/1a7621ba3be94cba9d9bed3b6a3e171f.json",
+      "bytes": 39813,
+      "sha256": "89ad0eb5a7bbc652c67e2706236d7f69646d410c76887d651be90cea2b8b38bd"
+    },
+    {
+      "path": "文案助手/wechat-writer/data/writing/1a7621ba3be94cba9d9bed3b6a3e171f.md",
+      "bytes": 1295,
+      "sha256": "b3f7d0d8ad7963156c1a78aab3c2b37246600367c8e0c7bdfdacb1937d961040"
+    },
+    {
+      "path": "文案助手/wechat-writer/data/writing/be134443b24246e08525c0dddeb033ce.json",
+      "bytes": 187377,
+      "sha256": "385480fb72f1961ca4fdc6115ffbde3ad38a190b4cb9c1eca69a1ff52c4984e2"
+    },
+    {
+      "path": "文案助手/wechat-writer/data/writing/be134443b24246e08525c0dddeb033ce.md",
+      "bytes": 37218,
+      "sha256": "578176e4b0b914e978f0c3b8a1b05e4d03bbd23e86bf5001208e8b8d1c81d611"
+    },
+    {
+      "path": "文案助手/wechat-writer/data/writing/f272356a78f542d6b94e2a3ae4acddd3.json",
+      "bytes": 39813,
+      "sha256": "a190f57d0d54339b9b77991587528617fa13e2ce1f4d002b6e6e5cac9e4cdf15"
+    },
+    {
+      "path": "文案助手/wechat-writer/data/writing/f272356a78f542d6b94e2a3ae4acddd3.md",
+      "bytes": 1295,
+      "sha256": "b3f7d0d8ad7963156c1a78aab3c2b37246600367c8e0c7bdfdacb1937d961040"
+    },
+    {
+      "path": "文案助手/wechat-writer/engine.py",
+      "bytes": 54702,
+      "sha256": "7f302ea18784b801d62a320a0bcbf2015db3d6bfc7146ec102574c97fb9a4580"
+    },
+    {
+      "path": "文案助手/wechat-writer/image_engine.py",
+      "bytes": 25678,
+      "sha256": "42c7e5f7ee68bb3e0de8ca3852b131f73f9207ef5f17690d3d36f8bf5aa4b72d"
+    },
+    {
+      "path": "文案助手/wechat-writer/open-notes.command",
+      "bytes": 471,
+      "sha256": "4a415a2dec8658d43872e6f23f16d02ab1203532413a7bcd78532496d9a3c8cf"
+    },
+    {
+      "path": "文案助手/wechat-writer/performance_engine.py",
+      "bytes": 14009,
+      "sha256": "9c33fd936688b1e52d18772fffefb3117cadd056fbf82d8c0d3bf2870c241403"
+    },
+    {
+      "path": "文案助手/wechat-writer/performance_store.py",
+      "bytes": 22993,
+      "sha256": "6126d7ba0aca0a925c473586bcce1f98edc2f46adcbc21f2ac97de6927862cf4"
+    },
+    {
+      "path": "文案助手/wechat-writer/requirements.txt",
+      "bytes": 158,
+      "sha256": "aa708fb7a14409d667acc390e4bf9cfb5d8944773a3b865d3a38fab67fbdea78"
+    },
+    {
+      "path": "文案助手/wechat-writer/start.command",
+      "bytes": 963,
+      "sha256": "8aa38c65b9fcfa97442ca62cdb05c491c5eeb0fb8c80fbe48d31b3b0a12b12ab"
+    },
+    {
+      "path": "文案助手/wechat-writer/static/app.js",
+      "bytes": 172152,
+      "sha256": "6a1518b5882d3540830e5d053570e0a5df1dcf9a4b0170bfeb0feebf13b3843f"
+    },
+    {
+      "path": "文案助手/wechat-writer/static/index.html",
+      "bytes": 5584,
+      "sha256": "af22aa2fccb1f15a04e294552bf21bbf9b0f473ded0bbae70b8df39bf2575eea"
+    },
+    {
+      "path": "文案助手/wechat-writer/static/styles.css",
+      "bytes": 74306,
+      "sha256": "888a229ed8e07c6fea3188be282470900b40e0290f1200cd5396338f2f845327"
+    },
+    {
+      "path": "文案助手/wechat-writer/static/topics-board.css",
+      "bytes": 5973,
+      "sha256": "21ee09abc6686455bdc890e3f2839ea92c7731ab2c4d31a9dd4192fd40be07be"
+    },
+    {
+      "path": "文案助手/wechat-writer/static/topics-board.js",
+      "bytes": 12305,
+      "sha256": "cf2bd0d91b314754023daa224d493242b9f208a49de9466ba9a6c10f65995b55"
+    },
+    {
+      "path": "文案助手/wechat-writer/topic_bridge.py",
+      "bytes": 17258,
+      "sha256": "c057ee0d227fbc229d904228d44c8f3ae7b48c2e3bfb443506bea4d07358e155"
+    },
+    {
+      "path": "文案助手/wechat-writer/writing-skills/automotive-wechat-editor/SKILL.md",
+      "bytes": 2067,
+      "sha256": "f271c864cbe1b9f9319d9069404ecbe3b1e30783d02ced2431eee950b6587770"
+    },
+    {
+      "path": "文案助手/wechat-writer/writing-skills/automotive-wechat-editor/config.json",
+      "bytes": 17,
+      "sha256": "63436890ccea51cdcadd3bba40fa336be149e1015a28fcf207df052be19840e1"
+    },
+    {
+      "path": "文案助手/wechat-writer/writing-skills/automotive-wechat-editor/references/deep.md",
+      "bytes": 1027,
+      "sha256": "43f03b189b6e5e266f1a819a41814a7d68e8bd2d810cfbda48586a6fbfa54ad8"
+    },
+    {
+      "path": "文案助手/wechat-writer/writing-skills/automotive-wechat-editor/references/style-extraction.md",
+      "bytes": 677,
+      "sha256": "72e3ff1380bdab69080552728720bd2d18b766c98c2812c5b5b166484204d632"
+    },
+    {
+      "path": "文案助手/wechat-writer/writing-skills/automotive-wechat-editor/references/来源与适配.md",
+      "bytes": 3943,
+      "sha256": "e0370c8cbcc65e2db695263501768ee03e569b92e4c6a06c878715f47ab78d03"
+    },
+    {
+      "path": "文案助手/wechat-writer/writing-skills/automotive-wechat-editor/sources.json",
+      "bytes": 3820,
+      "sha256": "3eb3b464200b93e65203f62a0b9c22ee11399ec358ebf43427209729a6dd367d"
+    },
+    {
+      "path": "文案助手/wechat-writer/writing-skills/automotive-wechat-editor/stages/body.md",
+      "bytes": 1134,
+      "sha256": "1b02117501ee3d5c31b64b071abbde259762fd72855b215096daa18a9dd8b474"
+    },
+    {
+      "path": "文案助手/wechat-writer/writing-skills/automotive-wechat-editor/stages/fact_audit.md",
+      "bytes": 899,
+      "sha256": "ed3825772bf0385595549a3bf5028c2dca096a08880a8dba7e9af889973beacd"
+    },
+    {
+      "path": "文案助手/wechat-writer/writing-skills/automotive-wechat-editor/stages/facts.md",
+      "bytes": 1034,
+      "sha256": "1f4cc92438fbcda306a420fda49e57d5c97cffd0f37c00550c15a7aae2f30091"
+    },
+    {
+      "path": "文案助手/wechat-writer/writing-skills/automotive-wechat-editor/stages/language_audit.md",
+      "bytes": 872,
+      "sha256": "1679cb4d6bed810bb128670564b2aa36f1163d3ec4f77eeede90d61c52df0477"
+    },
+    {
+      "path": "文案助手/wechat-writer/writing-skills/automotive-wechat-editor/stages/outline.md",
+      "bytes": 1070,
+      "sha256": "faa4d89f36dd1eebd1906f63fb087754ae62c4dfe7741ccb19b35860d54fd878"
+    },
+    {
+      "path": "文案助手/wechat-writer/writing-skills/automotive-wechat-editor/stages/package.md",
+      "bytes": 1113,
+      "sha256": "e95f2c8d40370d77d4ea6206d1ffec274f3cf28bd0f735e3bc4766081c76da4c"
+    },
+    {
+      "path": "文案助手/wechat-writer/writing-skills/automotive-wechat-editor/stages/repair.md",
+      "bytes": 685,
+      "sha256": "2591f9e5b01753ce98e3da949f3289e6b3a93a26ef884858ec99d7b8c88e493f"
+    },
+    {
+      "path": "文案助手/wechat-writer/writing-skills/automotive-wechat-editor/stages/title.md",
+      "bytes": 965,
+      "sha256": "634f5302ad1ecb24ce2e042e6f603408d1d2fd63b71588d8bd7e7b79f3a5c387"
+    },
+    {
+      "path": "文案助手/wechat-writer/writing-skills/automotive-wechat-editor/主写作提示词.md",
+      "bytes": 21489,
+      "sha256": "4ebd2f2710f808ef3ffabd2b46701d8886df45820e83694b45065fb077be87f1"
+    },
+    {
+      "path": "文案助手/wechat-writer/writing-skills/automotive-wechat-editor/用户原始提示词.md",
+      "bytes": 21489,
+      "sha256": "4ebd2f2710f808ef3ffabd2b46701d8886df45820e83694b45065fb077be87f1"
+    },
+    {
+      "path": "文案助手/wechat-writer/writing_engine.py",
+      "bytes": 52654,
+      "sha256": "908ffd2756ea8a4203be2db3b09255a59d1f1ddbaad8f1934f13c72e4fd87b8c"
+    },
+    {
+      "path": "文案助手/wechat-writer/writing_policy.py",
+      "bytes": 7031,
+      "sha256": "d888e72c76a49746245ff605277ec497afd88be4056862b094aeeb45b154ea9f"
+    },
+    {
+      "path": "文案助手/wechat-writer/writing_store.py",
+      "bytes": 39445,
+      "sha256": "f6628deec10648df9689c45bf82d1fbb1f4335cd2ea7083cb14cf390c74fa3b8"
+    },
+    {
+      "path": "文案助手/wechat-writer/使用说明.md",
+      "bytes": 22132,
+      "sha256": "5d94b1797d099f269bd56e2b87b7c35066f4b8f4c2d051467e8e49903a92f929"
+    },
+    {
+      "path": "文案助手/wechat-writer/同步到GitHub.command",
+      "bytes": 2410,
+      "sha256": "8e0723fcd19f5b24ec1afe400fd8c6cfb54349398a4657f09ea25428555876b1"
+    },
+    {
+      "path": "补充规则.md",
+      "bytes": 14579,
+      "sha256": "64254f5193b62d9c2f422aecb314af9c11e96b0c59799da68a38700ed910b3f3"
+    },
+    {
+      "path": "跨平台新媒体助手需求文档_V1.0.docx",
+      "bytes": 42421,
+      "sha256": "1fa3a86c765f9511dbf414bea6d661874cb1aee35aca1a5f0c63e912e938334f"
+    },
+    {
+      "path": "选题skill/花叔选题skill.md",
+      "bytes": 2460,
+      "sha256": "56537e60e5443ba0c016b7b3af0970cccd0c7b9530a639a1dcc5607e5569b819"
+    },
+    {
+      "path": "配置模板/README.md",
+      "bytes": 1650,
+      "sha256": "ac0869c2af52147988ffb4129ca4940b106ca5a5cef8a6ca89d094dbdd082f9f"
+    },
+    {
+      "path": "配置模板/coze_secrets.example.json",
+      "bytes": 113,
+      "sha256": "abb5efce958fb05b1c3efe6141b8a4cd8fa3a610f2f75a21cc1f08f19540568c"
+    },
+    {
+      "path": "配置模板/settings.example.json",
+      "bytes": 297,
+      "sha256": "c28ece79e882ac5c89a579c67c64e3b39e26739da851fdb7d4ccb5f935b93d25"
+    }
+  ]
+}
